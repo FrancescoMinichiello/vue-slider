@@ -1,0 +1,12 @@
+body {
+    height: 100vh;
+}
+
+.slide-container {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 30px;
+}
