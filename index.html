@@ -20,7 +20,11 @@
     <main>
 
         <div id="app">
-            <p> {{ title }} </p>
+            <div>
+                <h4> {{ currentSlide.title }} </h4>
+                <p> {{ currentSlide.text }} </p>
+                <img :src="slides[currentIndex].image" alt="">
+            </div>
         </div>
 
     </main>
