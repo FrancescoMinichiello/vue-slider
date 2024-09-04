@@ -26,10 +26,10 @@
                 <div class="slide-container">
                     <img :src="slides[currentIndex].image" class="img-fluid slide-container" alt="">
                 </div>
-                <div class="text-center my-4">
-                    <button @click="prevSlide">Prev</button>
-                    <button @click="nextSlide">Next</button>
-                </div>
+            </div>
+            <div class="mt-5">
+                <button @click="prevSlide" class="btn btn-secondary me-4">Prev</button>
+                <button @click="nextSlide" class="btn btn-primary">Next</button>
             </div>
         </div>
 
